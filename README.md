@@ -7,6 +7,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/MasterGlasses76/altTools)](https://repl.it/github/MasterGlasses76/altTools)
 ---
 Module Class `altTools()`
+
 `write(value, pause=0.06, newline=True)` Prints out values to the stream and pauses shortly between each value to create a typewriter effect. ***Limitations in coding enviorments can lead to inconsistencies**
 
 `clr_input(prompt)` Works like a regular input statement, but clears the prompt and input value after a newline key is pressed.
