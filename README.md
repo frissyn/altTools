@@ -12,5 +12,7 @@
 Module Class-> `altTools()`
 
 `write(value, pause=0.06, newline=True)` Prints out values to the stream and pauses shortly between each value to create a typewriter effect. ***Result may vary depending on your coding enviornment!**
+
 `clr_input(prompt)` Works like a regular input statement, but clears the prompt and input value after a newline key is pressed.
+
 `encrypt(value, shift)` Returns a Ceasar Cipher encrypted version of a string corresponding to the shift prameter value.
