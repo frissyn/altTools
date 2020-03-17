@@ -5,15 +5,15 @@ with open("altTools/README.md", "r") as fh:
 
 setuptools.setup(
     name="altTools",
-    version="0.0.2",
+    version="0.0.3",
     author="Ireoluwa Raufu",
     description="A collection of unrelated but useful Python functions in a single module.",
     license='MIT',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MasterGlasses76/altTools",
+    keywords = ['useful', 'random', 'utility'],
     packages=setuptools.find_packages(),
-    
     classifiers=[
         'Development Status :: 3 - Alpha',
         "Programming Language :: Python :: 3",
