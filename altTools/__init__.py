@@ -2,8 +2,8 @@ import sys
 from time import sleep
 
 class altTools:
-    def write(value, pause=0.06, newline=True):
-        for char in str(value):
+    def write(values, pause=0.06, newline=True):
+        for char in str(values):
             sys.stdout.write(char)
             sys.stdout.flush()
             sleep(pause)
