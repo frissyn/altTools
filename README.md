@@ -1,7 +1,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/MasterGlasses76/altTools)](https://repl.it/github/MasterGlasses76/altTools)
 [![PyPI version](https://img.shields.io/pypi/v/altTools.svg)](https://pypi.python.org/pypi/altTools/)
-[![PyPI license](https://img.shields.io/pypi/l/altTools.svg)](https://pypi.python.org/pypi/altTools/)
 [![PyPI status](https://img.shields.io/pypi/status/altTools.svg)](https://pypi.python.org/pypi/altTools/)
+[![PyPI license](https://img.shields.io/pypi/l/altTools.svg)](https://pypi.python.org/pypi/altTools/)
 
 ## About
 
