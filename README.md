@@ -24,6 +24,6 @@ Module Class-> `altTools()`
 `about()` Returns a brief description of the altTools python package.
 
 
-[*1]: *Results may vay depending on your coding enviornment.*
+[*]: *Results may vay depending on your coding enviornment.*
 
-[**2]: *Function is very unstable. May not work as intended.*
+[**]: *Function is very unstable. May not work as intended.*
