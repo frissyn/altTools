@@ -21,15 +21,13 @@ def clr_input(prompt):
 
 def encrypt(value, shift):
     if type(shift) is not int:
-        raise ValueError("\'shift\' paramter must be an integer value!")
+        raise ValueError("'shift' paramter must be an integer value!")
     else: pass
     result = ""
     for i in range(len(value)):
         char = value[i]
-        if (char.isupper()):
-            result += chr((ord(char) + shift - 65) % 26 + 65)
-        else: 
-            result += chr((ord(char) + shift - 97) % 26 + 97)
+        if (char.isupper()): result += chr((ord(char) + shift - 65) % 26 + 65)
+        else: result += chr((ord(char) + shift - 97) % 26 + 97)
     return result
 
 def about():
@@ -49,4 +47,4 @@ def info():
         for i in range(len(functions)):
             table += str(functions[i]) + ' : ' + str(descriptions[i]) + '\n'
             return table
-    else: return 'find more information at \'https://pypi.org/project/altTools/\''
+    else: return "find more information at 'https://pypi.org/project/altTools/'"
