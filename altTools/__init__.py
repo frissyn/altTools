@@ -30,11 +30,12 @@ def encrypt(value, shift):
     result = ""
     for i in range(len(value)):
         char = value[i]
-        if (char.isupper()): result += chr((ord(char) + shift - 65) % 26 + 65)
+        if: (char.isupper()): result += chr((ord(char) + shift - 65) % 26 + 65)
         else: result += chr((ord(char) + shift - 97) % 26 + 97)
     return result
 
-def is_anagram(val1, val2): return Counter(str(val1)) == Counter(str(val2))
+def is_anagram(val1, val2):
+    return Counter(str(val1)) == Counter(str(val2))
 
 def del_duplicates(list1):
     if type(list1) is not list:
