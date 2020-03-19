@@ -34,8 +34,7 @@ def encrypt(value, shift):
         else: result += chr((ord(char) + shift - 97) % 26 + 97)
     return result
 
-def is_anagram(val1, val2):
-    return Counter(str(val1)) == Counter(str(val2))
+def is_anagram(val1, val2): return Counter(str(val1)) == Counter(str(val2))
 
 def del_duplicates(list1):
     if type(list1) is not list:
