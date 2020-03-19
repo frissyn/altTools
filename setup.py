@@ -5,9 +5,9 @@ with open("altTools/README.md", "r") as fh:
 
 setuptools.setup(
     name="altTools",
-    version="0.0.3",
+    version="0.0.8",
     author="Ireoluwa Raufu",
-    description="A collection of unrelated but useful Python functions in a single module.",
+    description="A collection of unrelated but useful Python functions in a single module. (Unstable Release)",
     license='MIT',
     long_description=long_description,
     long_description_content_type="text/markdown",
