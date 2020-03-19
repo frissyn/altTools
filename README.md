@@ -23,7 +23,7 @@ Module Class-> `altTools()`
 
 `about()` Returns a brief description of the altTools python package.
 
-
+---
 [*]: *Results may vay depending on your coding enviornment.*
 
 [**]: *Function is very unstable. May not work as intended.*
